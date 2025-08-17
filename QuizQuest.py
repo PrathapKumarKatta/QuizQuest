@@ -154,10 +154,11 @@ def main():
         else:
             print("⚠️ Invalid input.")
 
-    # Show breakdown per category
+
     print("\n📌 Category-wise Score Breakdown:")
     for cat, sdata in category_scores.items():
         print(f"  {cat}: {sdata['score']}/{sdata['total']}")
 
 if __name__ == "__main__":
     main()
+
